@@ -1,0 +1,257 @@
+html{
+
+
+}
+.main{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: helvetica;
+  display: block;
+  background-color: azure;
+
+
+}
+/*container 1*/
+.menubarcontainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.titlebanner{
+  background-image: url("../images/dude.png");
+  background-size: cover;
+  height: 30rem;
+
+
+}
+.menubar{
+  background-color: cadetblue;
+  display: flex;
+  width:960px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+.menu p{
+  display: none;
+}
+ul{
+  display: flex;
+}
+.menu li{
+  padding-right: 2rem;
+}
+.logotitle{
+  display: flex;
+  align-items: center;
+
+}
+.logotitle img{
+  height:1.5rem;
+  padding-right: 1rem;
+}
+.bannercontainer{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+.width100{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.banner{
+  background-color: white;
+  padding: 1.5rem 5rem 1.5rem 5rem;
+  margin-top: 10rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+
+/*container2*/
+.productgrid{
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  width:960px;
+  justify-content: center;
+}
+.exam,
+.fitting,
+.delivery{
+  display: inline-block;
+  height: 8rem;
+  text-align: center;
+
+}
+.exam{
+  padding-right: 6rem;
+}
+.delivery{
+  padding-left: 6rem;
+}
+.exam img{
+  width: 3.5rem
+}
+.fitting img{
+  width: 5rem;
+  padding-bottom: 1.75rem;
+}
+.delivery img{
+  width:5rem;
+  padding-bottom:1.25rem;
+
+}
+
+
+/*container3*/
+.philoapp{
+  display: flex;
+  width: 960px;
+  justify-content: center;
+  padding-bottom: 5rem;
+  padding-left: 7rem;
+}
+.philosophy,
+.appointments{
+  display: inline-block;
+  width: 35%;
+  padding-right: 5%;
+}
+.philosophy h1,
+.appointments h1{
+  background-color: cadetblue;
+  padding: .5rem 0 .5rem 1.25rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+/*container4*/
+.footer{
+  display: flex;
+  padding:4rem;
+  justify-content: flex-start;
+  width: 60%;
+}
+.footer img{
+  height: 1.5rem;
+}
+.footer p{
+  padding-left: 1rem;
+
+}
+
+@media only screen and (max-width:750px){
+  .menubarcontainer{
+    padding-top: 0rem;
+  }
+  .menubar{
+    width: 100%;
+    margin-top: 0rem;
+  }
+  .titlebanner{
+    height:22rem;
+  }
+  .banner{
+    background-color: white;
+    padding: .75rem 4rem .75rem 4rem;
+    margin-top: 5rem;
+    font-size: 1.33rem;
+
+  }
+  .philoapp{
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width:470px){
+
+  .logotitle span{
+    display: none;
+  }
+  .logotitle{
+    padding-left: 2rem;
+  }
+  .menu p{
+    display: inline;
+    padding-right: 2rem;
+  }
+  .menu ul{
+    display: none;
+  }
+  .titlebanner{
+    height: 17rem;
+  }
+  .banner{
+    width: 100%;
+    margin-top: 9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+.bannercontainer{
+  width: 100%;
+  display: flex;
+  margin-right: 0rem;
+}
+.productgrid{
+  flex-direction: column;
+  margin-top: 3.77rem;
+  margin-bottom: 3.77rem;
+
+  width:100%;
+  justify-content: center;
+}
+.exam{
+  padding-right: 0rem;
+}
+.fitting{
+  padding-top: 1.54rem;
+}
+.delivery{
+  padding-left: 0rem;
+  padding-top: 1.54rem;
+}
+.philoapp{
+  display: block;
+  padding-bottom: 0rem;
+}
+.philosophy h1,
+.appointments h1{
+  width:100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.philosophy,
+.appointments{
+  width: 100%;
+  padding-bottom: 4rem;
+}
+.philosophy p,
+.appointments p{
+  font-size: .77rem;
+}
+.footer{
+  justify-content: center;
+}
+.footer p{
+ display: none;
+}
+}
